@@ -18,7 +18,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-font`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
           `baskerville\:400`,
