@@ -11,11 +11,20 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-source-contentful',
+      resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `in4ktfm2lial`,
         accessToken: process.env.CONTENFUL_ACCESS_TOKEN,
       } 
+    },
+    {
+      resolve: `gatsby-plugin-google-font`,
+      options: {
+        fonts: [
+          `baskerville\:400`,
+          `muli\:300,700`
+        ]
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
