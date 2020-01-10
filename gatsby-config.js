@@ -14,8 +14,8 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `in4ktfm2lial`,
-        accessToken: process.env.CONTENFUL_ACCESS_TOKEN,
-      } 
+        accessToken: 'utKt8szs6TDjNAGS0AjOROMmMh1b_fnditweiXE6J2s',
+      },
     },
     {
       resolve: `gatsby-plugin-google-font`,
