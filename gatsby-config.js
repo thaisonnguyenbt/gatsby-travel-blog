@@ -10,17 +10,12 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `in4ktfm2lial`,
         accessToken: 'utKt8szs6TDjNAGS0AjOROMmMh1b_fnditweiXE6J2s',
-      },
-    },
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [], // just in case those previously mentioned remark plugins sound cool :)
       },
     },
     {
