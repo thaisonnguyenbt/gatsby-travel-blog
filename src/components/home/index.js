@@ -7,7 +7,7 @@ export default () => (
      query={graphql` 
  query HomeQuery {
    allContentfulBlog(
-       limit: 9
+       limit: 6
        sort: { fields: [createdAt], order: DESC }
        filter: {
        node_locale: {eq: "en-US",}
